@@ -36,6 +36,15 @@
         outline: 2px solid red; /* свой цвет и толщина */
         outline-offset: 2px;    /* отступ от границы */
     }
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #fff5;    
+    }
 }
 
 #top-area div.animate {
