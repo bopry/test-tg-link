@@ -81,6 +81,7 @@
     left: 0;
     position: fixed;
     width: 50vw;
+    transform: translate(50%,50%);
     max-width: 200px;
     background-color: #fff8;
     backdrop-filter: blur(10px);
