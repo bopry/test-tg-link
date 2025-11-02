@@ -21,6 +21,8 @@
 #top-area {
     position: fixed;
     width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 #top-area div {
@@ -46,11 +48,6 @@
         filter: blur(10px);
         backdrop-filter: blur(5px);
         z-index: -1;
-    }
-    &::after {
-        filter: blur(10px);
-        z-index: -2;
-        backdrop-filter: blur(5px);
     }
 }
 /*
