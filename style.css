@@ -53,6 +53,7 @@
 
 .button-area {
     position: absolute;
+    content: "";
     left: 0;
     right: 0;
     top: 0;
