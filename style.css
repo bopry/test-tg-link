@@ -22,7 +22,6 @@
     position: fixed;
     width: 100vw;
     display: flex;
-    justify-content: space-between;
 }
 
 #top-area div {
