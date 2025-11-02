@@ -21,7 +21,6 @@
 #top-area {
     position: fixed;
     width: 100vw;
-    display: flex;
 }
 
 #top-area div {
