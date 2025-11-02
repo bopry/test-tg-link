@@ -45,6 +45,15 @@
 #top-area div.hidden {
     transform: scale(1) rotate(0deg);
 }
+
+.block {
+    margin: 10px;
+    background-color: #0001;
+    padding: 10px;
+    border: solid 1px #0001;
+    border-radius: 15px;
+}
+
 /*
 @media (hover: none) {
     #top-area button:hover {
