@@ -83,7 +83,7 @@
     width: 50vw;
     max-width: 200px;
     background-color: #fff8;
-    backdrop-filter: blur(10px) saturation(1.5);
+    backdrop-filter: blur(10px);
 }
 /*
 @media (hover: none) {
