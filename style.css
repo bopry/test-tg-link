@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes zoom {
+    0% {
+        width: 40px;
+        height: 40px;
+    }
+    50% {
+        width: 43px;
+        height: 43px;
+    }
+    100% {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+#top-area {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top-area div {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #0000;
+    border: none;
+    transition: 0.3s;
+    &:focus {
+        outline: 2px solid red; /* свой цвет и толщина */
+        outline-offset: 2px;    /* отступ от границы */
+    }
+}
+
+#top-area div.animate {
+    transform: scale(1.2) rotate(10deg);
+}
+
+#top-area div.hidden {
+    transform: scale(1) rotate(0deg);
+}
+/*
+@media (hover: none) {
+    #top-area button:hover {
+        animation: zoom 0.5s;
+    }
+}*/
